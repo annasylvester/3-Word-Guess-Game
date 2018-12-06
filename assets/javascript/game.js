@@ -6,22 +6,19 @@
         let doubleWord = ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z'];
     
     //Holds the all the words
-        let wordBank =['phoebe',
-                        'joey',
-                        'ross',
-                        'rachel',
-                        'monica',
-                        'chandler',
-                        'phalange',
-                        'perk',
-                        'unagi',
-                        'seven',
-                        'armadillo',
-                        'lobster',
-                        'sandwiches',
-                        'dinosaurs',
-                        'pivot',
-                        'triplets',
+        let wordBank =['rick',
+                        'morty',
+                        'dimension',
+                        'galactic',
+                        'meeseeks',
+                        'portal',
+                        'squanchy',
+                        'wubalubadubdub',
+                        'unity',
+                        'jerry',
+                        'summer',
+                        'beth',
+                        'anatomy',
                         ];
 
     //Holds choosenWord
@@ -42,7 +39,7 @@
     //Counters
         let winCount = 0;
         let loseCount = 0;
-        let guessesLeft = 9;
+        let guessesLeft = 10;
         let rightGuessCounter = 0;
     
 
@@ -63,7 +60,7 @@
         //RESET
         letterGuessed = 0;
         rightGuessCounter = 0;
-        guessesLeft = 9;
+        guessesLeft = 10;
         wrongLetters =[];
         blanksAndSuccesses =[];
         doubleWord = ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z'];
@@ -82,7 +79,7 @@
 
         //RESET
         rightGuessCounter = 0;
-        guessesLeft = 9;
+        guessesLeft = 10;
         wrongLetters =[];
         blanksAndSuccesses =[];
         doubleWord = ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z'];
