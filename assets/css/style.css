@@ -3,19 +3,16 @@ body {
     background-color: #00133c;
 }
 
-.container {
-    width: 80%;
+.col-centered {
+    float: none;
+    margin: auto;
 }
 
-.jumbotron {
-    background-color: white !important;
-}
 
 .friendsPhoto {
-    width: 90%;
+    width: 60%;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
 }
 
 h1 {
