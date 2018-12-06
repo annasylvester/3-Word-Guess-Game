@@ -28,8 +28,20 @@ p {
     margin-top: 3%;
 }
 
-.row {
+.panel-heading {
+    background-color: white !important;
+    border-color: #151d28 !important;
+    color: white;
+
 }
+
+.panel-default {
+    background-color: #151d28;
+    border-color: #151d28;
+    color: white;
+
+}
+
 
 .containerTop {
     width: 100%;

@@ -39,7 +39,7 @@
     //Counters
         let winCount = 0;
         let loseCount = 0;
-        let guessesLeft = 10;
+        let guessesLeft = 15;
         let rightGuessCounter = 0;
     
 
@@ -60,7 +60,7 @@
         //RESET
         letterGuessed = 0;
         rightGuessCounter = 0;
-        guessesLeft = 10;
+        guessesLeft = 15;
         wrongLetters =[];
         blanksAndSuccesses =[];
         doubleWord = ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z'];
@@ -79,7 +79,7 @@
 
         //RESET
         rightGuessCounter = 0;
-        guessesLeft = 10;
+        guessesLeft = 15;
         wrongLetters =[];
         blanksAndSuccesses =[];
         doubleWord = ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z'];
